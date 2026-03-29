@@ -1,0 +1,146 @@
+/* n8n Automation Connector - Admin Styles */
+
+.n8n-dashboard {
+    margin-top: 20px;
+}
+
+.n8n-stats-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.n8n-stat-card {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+    transition: box-shadow 0.2s ease;
+}
+
+.n8n-stat-card:hover {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.n8n-stat-value {
+    font-size: 32px;
+    font-weight: bold;
+    color: #1d2327;
+    margin: 0;
+}
+
+.n8n-stat-label {
+    color: #646970;
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+.n8n-stat-success .n8n-stat-value {
+    color: #00a32a;
+}
+
+.n8n-stat-error .n8n-stat-value {
+    color: #d63638;
+}
+
+.n8n-section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+}
+
+.n8n-section h2 {
+    margin-top: 0;
+    color: #1d2327;
+}
+
+.n8n-section h3 {
+    color: #646970;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.n8n-status {
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.n8n-status-success {
+    background: #00a32a;
+    color: white;
+}
+
+.n8n-status-failed {
+    background: #d63638;
+    color: white;
+}
+
+.n8n-status-pending {
+    background: #dba617;
+    color: white;
+}
+
+.n8n-logs-header {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccd0d4;
+}
+
+pre {
+    background: #f5f5f5;
+    padding: 15px;
+    border-left: 3px solid #0073aa;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+.card {
+    background: white;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #1d2327;
+    border-bottom: 2px solid #0073aa;
+    padding-bottom: 10px;
+}
+
+.card ul.ul-disc {
+    padding-left: 20px;
+}
+
+.card ul.ul-disc li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .n8n-stats-cards {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 15px;
+    }
+
+    .n8n-stat-value {
+        font-size: 24px;
+    }
+
+    .n8n-section {
+        padding: 15px;
+    }
+}

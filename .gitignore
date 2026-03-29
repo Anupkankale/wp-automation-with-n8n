@@ -1,0 +1,4 @@
+# Hide a specific file
+git rm --cached CHANGELOG.md
+git rm --cached README.md
+git rm --cached STRUCTURE.md

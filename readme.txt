@@ -187,8 +187,4 @@ do_action('n8n_send_webhook', array(
 ));
 ```
 
-== Support ==
-
-* Documentation: https://github.com/yourusername/n8n-automation-connector
-* Issues: https://github.com/yourusername/n8n-automation-connector/issues
-* Email: support@yourwebsite.com
+ 

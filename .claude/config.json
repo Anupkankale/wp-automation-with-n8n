@@ -1,0 +1,15 @@
+{
+  "model": "claude-sonnet-4-6",
+  "permissions": {
+    "allow": [
+      "Bash(php:*)",
+      "Bash(wp:*)",
+      "Bash(composer:*)",
+      "Bash(git:*)"
+    ]
+  },
+  "env": {
+    "PROJECT_TYPE": "wordpress-plugin",
+    "PLUGIN_SLUG": "n8n-automation-connector"
+  }
+}

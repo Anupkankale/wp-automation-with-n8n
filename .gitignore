@@ -1,5 +1,0 @@
-# Hide a specific file
-.gitignore
-CHANGELOG.md
-README.md
-STRUCTURE.md

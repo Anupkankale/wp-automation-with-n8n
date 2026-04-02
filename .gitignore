@@ -1,0 +1,9 @@
+# Ignore Claude-related folder
+.claude/
+
+# Ignore specific files
+CHANGELOG.md
+CLAUDE.md
+README.md
+STRUCTURE.md
+readme.md
